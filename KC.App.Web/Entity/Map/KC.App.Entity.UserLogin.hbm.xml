@@ -1,0 +1,42 @@
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class xmlns="urn:nhibernate-mapping-2.2" name="KC.App.Entity.UserLogin, KC.App.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" table="`UserLogin`">
+    <id name="Id" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="Id" default="100000" />
+      <generator class="identity" />
+    </id>
+    <property name="UserName" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="UserName" length="20" not-null="true" />
+    </property>
+    <property name="Pwd" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="Pwd" length="50" not-null="true" />
+    </property>
+    <property name="Salt" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="Salt" length="10" not-null="true" />
+    </property>
+    <property name="Email" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="Email" length="32" not-null="true" />
+    </property>
+    <property name="Mobile" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="Mobile" length="20" />
+    </property>
+    <property name="LoginCont" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="LoginCont" default="0" />
+    </property>
+    <property name="LastLoginIp" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="LastLoginIp" default="" />
+    </property>
+    <property name="LastLoginTime" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="LastLoginTime" default="0" />
+    </property>
+    <property name="RegisterTime" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="RegisterTime" default="0" />
+    </property>
+    <property name="Status" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="Status" default="0" />
+    </property>
+    <property name="UserType" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="UserType" default="0" />
+    </property>
+    <one-to-one cascade="all" class="KC.App.Entity.UserLogin, KC.App.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserInfo" property-ref="UserLogin" />
+  </class>
+</hibernate-mapping>

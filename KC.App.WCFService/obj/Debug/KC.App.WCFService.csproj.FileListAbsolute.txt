@@ -1,0 +1,5 @@
+G:\电子商务\网上订餐系统\KC.App\KC.App.WCFService\bin\KC.App.WCFService.dll
+G:\电子商务\网上订餐系统\KC.App\KC.App.WCFService\bin\KC.App.WCFService.pdb
+G:\电子商务\网上订餐系统\KC.App\KC.App.WCFService\obj\Debug\ResolveAssemblyReference.cache
+G:\电子商务\网上订餐系统\KC.App\KC.App.WCFService\obj\Debug\KC.App.WCFService.dll
+G:\电子商务\网上订餐系统\KC.App\KC.App.WCFService\obj\Debug\KC.App.WCFService.pdb

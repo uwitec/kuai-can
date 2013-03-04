@@ -1,0 +1,5 @@
+G:\电子商务\网上订餐系统\KC.App\KC.App.AdminWeb\obj\Debug\ResolveAssemblyReference.cache
+G:\电子商务\网上订餐系统\KC.App\KC.App.AdminWeb\bin\KC.App.AdminWeb.dll
+G:\电子商务\网上订餐系统\KC.App\KC.App.AdminWeb\bin\KC.App.AdminWeb.pdb
+G:\电子商务\网上订餐系统\KC.App\KC.App.AdminWeb\obj\Debug\KC.App.AdminWeb.dll
+G:\电子商务\网上订餐系统\KC.App\KC.App.AdminWeb\obj\Debug\KC.App.AdminWeb.pdb

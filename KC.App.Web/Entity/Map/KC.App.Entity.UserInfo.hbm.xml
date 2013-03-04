@@ -1,0 +1,9 @@
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class xmlns="urn:nhibernate-mapping-2.2" name="KC.App.Entity.UserInfo, KC.App.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" table="`UserInfo`">
+    <id name="Id" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <column name="Id" default="1" />
+      <generator class="identity" />
+    </id>
+    <one-to-one cascade="all" class="KC.App.Entity.UserLogin, KC.App.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" foreign-key="UId" lazy="proxy" name="UId" />
+  </class>
+</hibernate-mapping>

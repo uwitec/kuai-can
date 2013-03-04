@@ -1,0 +1,16 @@
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\KC.App.IDAL.dll
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\KC.App.IDAL.pdb
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\obj\Debug\KC.App.IDAL.dll
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\obj\Debug\KC.App.IDAL.pdb
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\KC.App.Entity.dll
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\FluentNHibernate.dll
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\NHibernate.dll
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\Iesi.Collections.dll
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\KC.App.Entity.pdb
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\FluentNHibernate.pdb
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\FluentNHibernate.xml
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\NHibernate.pdb
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\NHibernate.xml
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\Iesi.Collections.pdb
+G:\电子商务\网上订餐系统\KC.App\KC.App.IDAL\bin\Debug\Iesi.Collections.xml
